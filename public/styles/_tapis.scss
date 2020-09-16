@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 350px;
+    cursor: pointer;
+}
+td {
+padding: 15px;
+border: 2px solid black;
+color: white;
+text-align: center;
+background-color: $darkred;
+}
+th {
+border: 2px solid $black;
+padding: 20px;
+}
+#n1, #n3, #n5, #n7, #n9, #n10, #n12, #n14, #n16, #n19, #n21, #n23, #n25, #n27, #n28, #n30, #n32, #n34 {
+    background-color: $black;
+}

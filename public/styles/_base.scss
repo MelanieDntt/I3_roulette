@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+  background-color: $background-color;
+}
+button {
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 10%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
