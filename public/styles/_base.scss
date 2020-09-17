@@ -21,3 +21,12 @@ button {
   align-items: center;
   justify-content: space-evenly;
 }
+
+#roulette img {
+  -moz-transition: transform 2s;
+  -webkit-transition: transform 2s;
+  transition: transform 2s;
+}
+.flip {
+  transform: rotate(-720deg);
+}
