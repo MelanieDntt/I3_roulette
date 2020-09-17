@@ -19,25 +19,29 @@ $('.tapis td').on('click', function () {
 });
 
 $('#play').on('click', () => {
+  $('#roulette img').toggleClass('flip');
   const rand = getRand(36);
   console.log(rand);
   console.log($(`#n${rand}`).find('.jeton').length);
-  $('.number h3').text(`The number was : ${rand}`);
+  setTimeout(() => {
+    $('.number h3').text(`The number was : ${rand}`);
+  }, 2100);
+
   if ($(`#n${rand}`).find('.jeton').length === 1) {
     setTimeout(() => {
       alert('You win!');
       myBalance += 36;
       $('.myBalance').text(`${myBalance}€`);
-    }, 1000);
+    }, 2600);
   } else {
     setTimeout(() => {
       alert('You lost...');
-    }, 1000);
+    }, 2600);
   }
 
   setTimeout(() => {
     $('.jeton').remove();
-  }, 1500);
+  }, 3000);
 });
 
 $('.myBalance').append(`${myBalance}€`);
