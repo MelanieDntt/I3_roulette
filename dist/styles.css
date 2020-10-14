@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto";
+  background-color: #640D14; }
+
+button {
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 10%; }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+#roulette img {
+  -moz-transition: transform 2s;
+  -webkit-transition: transform 2s;
+  transition: transform 2s; }
+
+.flip {
+  transform: rotate(-720deg); }
+
+.myBalance {
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(5673da52c98bb6cb33ada5aaf649703e.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+table {
+  border-collapse: collapse;
+  width: 350px;
+  cursor: pointer; }
+
+td {
+  padding: 15px;
+  border: 2px solid black;
+  color: white;
+  text-align: center;
+  background-color: darkred; }
+
+th {
+  border: 2px solid black;
+  padding: 20px; }
+
+#n1, #n3, #n5, #n7, #n9, #n10, #n12, #n14, #n16, #n19, #n21, #n23, #n25, #n27, #n28, #n30, #n32, #n34 {
+  background-color: black; }
+
+.jeton:nth-of-type(odd) {
+  position: absolute; }
+
+.jeton {
+  border: 1px solid black;
+  background-color: gold;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  font-size: 12px;
+  display: inline-block;
+  position: relative; }
+
+
+/*# sourceMappingURL=styles.css.map*/

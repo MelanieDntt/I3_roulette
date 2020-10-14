@@ -15,6 +15,7 @@ $('.tapis td').on('click', function () {
     alert('Sorry you don\'t have enough money to play');
     myBalance = 0;
     $('.myBalance').text(`${myBalance}€`);
+    $('.jeton').remove();
   }
 });
 
